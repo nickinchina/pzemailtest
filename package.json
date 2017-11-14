@@ -1,0 +1,14 @@
+{
+    "name": "pzemailtest",
+    "version": "1.0.0",
+    "dependencies": {
+        "sendmail" :"1.2.0"
+    },
+    "devDependencies": {
+    },
+    "scripts": {
+        "test": "mocha --reporter spec --bail --check-leaks  -t 300s test/"
+    },
+    "author": "",
+    "license": "ISC"
+}
