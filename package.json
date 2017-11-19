@@ -2,7 +2,7 @@
     "name": "pzemailtest",
     "version": "1.0.0",
     "dependencies": {
-        "sendmail" :"1.2.0"
+        "nodemailer" :"4.1.0"
     },
     "devDependencies": {
     },
