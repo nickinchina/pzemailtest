@@ -3,13 +3,13 @@ const nodemailer = require('nodemailer');
 const sendmail = function(cb) {
     let transporter = nodemailer.createTransport(
         {
-            host: 'mail.s2konline.net',
+            host: 'localhost',
             port: 25,
             secure: false,
             tls: { rejectUnauthorized: false },
             auth: {
-                user: 'autoreply@s2konline.net',
-                pass: '710318gm'
+                user: 's2k',
+                pass: 'Passw0rd'
             },
             logger: false,
             debug: false // include SMTP traffic in the logs
