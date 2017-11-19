@@ -6,6 +6,7 @@ const sendmail = function(cb) {
             host: 'mail.s2konline.net',
             port: 25,
             secure: false,
+            tls: { rejectUnauthorized: false },
             auth: {
                 user: 'autoreply@s2konline.net',
                 pass: '710318gm'
