@@ -11,8 +11,8 @@ const sendmail = require('sendmail')({
 })
 const server = http.createServer(function(req,res){
     sendmail({
-        from: 'test@yourdomain.com',
-        to: 'info@yourdomain.com',
+        from: 'test@cstoreusa.com',
+        to: 'bptedi@cstoreusa.com',
         replyTo: 'jason@yourdomain.com',
         subject: 'MailComposer sendmail',
         html: 'Mail of test sendmail '
