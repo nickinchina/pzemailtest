@@ -61,7 +61,7 @@ const sendmail = function(cb) {
         }
 
         console.log('Message sent successfully!');
-        cb(nodemailer.getTestMessageUrl(info));
+        cb(error, nodemailer.getTestMessageUrl(info));
 
         // only needed when using pooled connections
         transporter.close();
