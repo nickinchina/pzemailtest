@@ -5,7 +5,7 @@ const sendmail = function(cb) {
         {
             host: 'localhost',
             port: 25,
-            secure: false,
+            secure: true,
             auth: {
                 user: 's2k',
                 pass: 'Passw0rd'
